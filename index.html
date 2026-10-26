@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Завдання з DOM</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Завдання з DOM</h1>
+
+    <section>
+      <h2>Категорії</h2>
+      <ul id="categories">
+        <li class="item">
+          <h2>Тварини</h2>
+          <ul>
+            <li>Кіт</li>
+            <li>Хом'як</li>
+            <li>Кінь</li>
+            <li>Папуга</li>
+          </ul>
+        </li>
+        <li class="item">
+          <h2>Продукти</h2>
+          <ul>
+            <li>Хліб</li>
+            <li>Петрушка</li>
+            <li>Сир</li>
+          </ul>
+        </li>
+        <li class="item">
+          <h2>Технології</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Інгредієнти</h2>
+      <ul id="ingredients"></ul>
+    </section>
+
+    <section>
+      <h2>Галерея</h2>
+      <ul id="gallery" class="gallery"></ul>
+    </section>
+
+    <section>
+      <h2>Лічильник</h2>
+      <div id="counter">
+        <button type="button" data-action="decrement">-1</button>
+        <span id="value">0</span>
+        <button type="button" data-action="increment">+1</button>
+      </div>
+    </section>
+  </body>
+</html>
